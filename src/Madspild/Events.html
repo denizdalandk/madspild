@@ -1,10 +1,145 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="da">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Events - Danmark mod Madspild</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            background-color: #dfe6dd;
+            padding: 40px;
+            max-width: 1100px;
+            margin: 40px auto;
+            border-radius: 10px;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 40px;
+        }
+
+        .header h1 {
+            font-size: 70px;
+            margin: 0;
+        }
+
+        .header p {
+            margin-top: 10px;
+        }
+
+        .events {
+            display: flex;
+            gap: 30px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .event-card {
+            background-color: #e9e9e9;
+            padding: 15px;
+            width: 280px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .event-card img {
+            width: 100%;
+            height: 160px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+
+        .event-card ul {
+            text-align: left;
+            padding-left: 20px;
+        }
+
+        .signup-btn {
+            background-color: #7aa874;
+            border: none;
+            padding: 10px 20px;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .home-btn {
+            display: block;
+            margin: 40px auto 0 auto;
+            background-color: #cfcfcf;
+            padding: 15px 40px;
+            border: none;
+            border-radius: 8px;
+            font-size: 18px;
+            cursor: pointer;
+        }
+    </style>
 </head>
 <body>
+
+<div class="container">
+
+    <div class="header">
+        <div>
+            <h1>Events</h1>
+            <p>Join local events to help reduce food waste in your community!</p>
+        </div>
+        <img src="img/recycle.png" alt="Recycling" width="150">
+    </div>
+
+    <div class="events">
+
+        <div class="event-card">
+            <h3>Event 1</h3>
+            <img src="img/event1.jpg" alt="Event 1">
+            <ul>
+                <li>Event title</li>
+                <li>Location</li>
+                <li>Time and date</li>
+                <li>Event info</li>
+            </ul>
+            <button class="signup-btn">Sign up</button>
+            <p>Contact: name | mail | number</p>
+        </div>
+
+        <div class="event-card">
+            <h3>Event 2</h3>
+            <img src="img/event2.jpg" alt="Event 2">
+            <ul>
+                <li>Event title</li>
+                <li>Location</li>
+                <li>Time and date</li>
+                <li>Event info</li>
+            </ul>
+            <button class="signup-btn">Sign up</button>
+            <p>Contact: name | mail | number</p>
+        </div>
+
+        <div class="event-card">
+            <h3>Event 3</h3>
+            <img src="img/event3.jpg" alt="Event 3">
+            <ul>
+                <li>Event title</li>
+                <li>Location</li>
+                <li>Time and date</li>
+                <li>Event info</li>
+            </ul>
+            <button class="signup-btn">Sign up</button>
+            <p>Contact: name | mail | number</p>
+        </div>
+
+    </div>
+
+    <button class="home-btn">Home</button>
+
+</div>
 
 </body>
 </html>
