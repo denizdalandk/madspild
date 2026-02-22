@@ -1,0 +1,103 @@
+html, body {
+    background-color: #DEE5DB;
+    height: 100%;
+    margin: 0;
+    font-family: "Monserrat", sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+
+.header img {
+    width: 100px;
+}
+
+.header h1 {
+    margin: 0 auto;
+}
+
+
+.HomeIntro {
+    background-color: #B7BDB5;
+    padding: 30px 0;
+    width: 100%;
+    text-align: center;
+}
+
+.HomeIntro .introTitle {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.tipBoxContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    width: 100%;
+    margin: 30px auto;
+}
+
+
+.tipBox {
+    background-color: #0EE89C;
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+    font-family: "Monserrat", sans-serif;
+    border-radius: 0;
+}
+
+.tipBox h2 {
+    margin-top: 0;
+    font-size: 22px;
+}
+
+.tipBox p {
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+
+.homeButton {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.homeButton a {
+    text-decoration: none;
+    background-color: #D9D9D9;
+    padding: 15px 60px;
+    font-size: 20px;
+    color: black;
+    border-radius: 0;
+    pointer-events: auto;
+}
+
+
+.footer {
+    background-color: #B7BDB5;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 20px 40px;
+}
+
+.åbningstider {
+    padding: 0 70px;
+}
